@@ -100,8 +100,13 @@ public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.MyViewHolder
                         Toast.makeText(mContext, "Unstarred! ☆", Toast.LENGTH_SHORT).show();
                         MyApplication.starredList.remove(h);
                     } else {
-                        Toast.makeText(mContext, "Starred! ★", Toast.LENGTH_SHORT).show();
-                        MyApplication.starredList.add(h);
+                        if (MyApplication.starredList.size() < 5) {
+                            Toast.makeText(mContext, "Starred! ★", Toast.LENGTH_SHORT).show();
+                            MyApplication.starredList.add(h);
+                        } else {
+                            Toast.makeText(mContext, "Oh-oh! You already have maximum number starred. Unstar some hotels and retry!",
+                                    Toast.LENGTH_SHORT).show();
+                        }
                     }
                     return true;
                 case R.id.action_detail:

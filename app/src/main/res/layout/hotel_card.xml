@@ -34,7 +34,7 @@
                 android:paddingRight="10dp"
                 android:paddingTop="10dp"
                 android:textColor="#59dbf1"
-                android:textSize="15dp" />
+                android:textSize="13dp" />
 
             <TextView
                 android:id="@+id/count"

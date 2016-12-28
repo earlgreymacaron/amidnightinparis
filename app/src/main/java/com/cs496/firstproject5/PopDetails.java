@@ -84,7 +84,7 @@ public class PopDetails extends Activity {
         getWindowManager().getDefaultDisplay().getMetrics(dm);
         int width = dm.widthPixels;
         int height = dm.heightPixels;
-        getWindow().setLayout((int) (width*0.6),(int) (height*0.43));
+        getWindow().setLayout((int) (width*0.6),(int) (height*0.40));
 
     }
 

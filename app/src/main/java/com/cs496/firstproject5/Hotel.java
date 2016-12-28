@@ -21,6 +21,7 @@ public class Hotel {
         this.thumbnail = thumbnail;
         this.toCity = toCity;
         this.toEiffel = toEiffel;
+        this.rating = rating;
         this.star = star;
 
     }

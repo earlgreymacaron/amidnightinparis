@@ -19,18 +19,21 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="get started!"
+        android:text="enter \ngallery"
         android:textStyle="bold"
         android:typeface="sans"
         android:textSize="20dp"
         android:paddingRight="15dp"
         android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         android:textColor="#eeffee"
         android:background="#8f7cee"
         android:visibility="visible"
+        android:gravity="center"
         android:id="@+id/button"
         android:layout_below="@+id/recycler_view"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="162dp" />
+        android:layout_marginTop="120dp" />
 
 </RelativeLayout>

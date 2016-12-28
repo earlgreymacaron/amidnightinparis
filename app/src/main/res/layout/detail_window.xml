@@ -2,4 +2,71 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/h_star"
+        android:textSize="15dp"
+        android:textColor="#ffbb00"
+        android:textStyle="bold"
+        android:layout_below="@+id/h_name"
+        android:gravity="center_horizontal"
+        android:foregroundGravity="center_horizontal"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/h_name"
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:maxLines="2"
+        android:gravity="center_horizontal"
+        android:textColor="#ff8c00"
+        android:foregroundGravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:id="@+id/h_rating"
+        android:textSize="15dp"
+        android:gravity="center_horizontal"
+        android:foregroundGravity="center_horizontal"
+        android:layout_below="@+id/h_price"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:id="@+id/h_distance"
+        android:textStyle="italic"
+
+        android:gravity="center_horizontal"
+        android:foregroundGravity="center_horizontal"
+        android:layout_below="@+id/h_rating"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/h_price"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:foregroundGravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/h_star"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

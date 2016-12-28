@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/features"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="90dp"
         >
 
         <RadioButton
@@ -89,6 +89,13 @@
             android:layout_centerHorizontal="true" />
 
     </RadioGroup>
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/features"
+        android:id="@+id/bar"></com.github.mikephil.charting.charts.BarChart>
 
 
 

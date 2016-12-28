@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/night"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="#ff3355"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/msg" />
+
+    <TextView
+        android:text="select a feature to view comparison chart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/msg"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/explain"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/features"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        >
+
+        <RadioButton
+            android:text="Price Per Night"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/priceB"
+            android:textSize="12dp"
+            android:layout_alignLeft="@+id/eiffelB"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+            android:layout_below="@+id/explain"/>
+
+        <RadioButton
+            android:text="Distance from City Center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/eiffelB"
+            android:id="@+id/cityB"
+            android:textSize="12dp"
+            android:layout_below="@+id/priceB"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true" />
+
+        <RadioButton
+            android:text="Distance from the Eiffel Tower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/eiffelB"
+            android:textSize="12dp"
+            android:layout_below="@+id/cityB"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true" />
+
+        <RadioButton
+            android:text="Review Ratings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingB"
+            android:textSize="12dp"
+            android:layout_alignLeft="@+id/eiffelB"
+            android:layout_below="@+id/eiffelB"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true" />
+
+        <RadioButton
+            android:text="Hotel Star Ratings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/starB"
+            android:textSize="12dp"
+            android:layout_alignLeft="@+id/eiffelB"
+            android:layout_below="@+id/ratingB"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true" />
+
+    </RadioGroup>
+
+
+
+
+</RelativeLayout>
